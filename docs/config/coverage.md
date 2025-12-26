@@ -394,4 +394,9 @@ Concurrency limit used when processing the coverage results.
 - **Available for providers:** `'custom'`
 - **CLI:** `--coverage.customProviderModule=<path or module name>`
 
-Specifies the module name or path for the custom coverage provider module. See [Guide - Custom Coverage Provider](/guide/coverage#custom-coverage-provider) for more information.
+Specifies the module name or path for the custom coverage provider module. See [Guide - Custom Coverage Provider](/guide/coverage#custom-co{
+  statements: [50, 80],
+  functions: [50, 80],
+  branches: [50, 80],
+  lines: [50, 80]
+}verage-provider) for more information.
